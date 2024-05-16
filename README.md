@@ -1,1 +1,1 @@
-# terraform-provider-git
+# terraform-provider-controltower
