@@ -1,4 +1,4 @@
-module github.com/go-pax/terraform-provider-controltower
+module github.com/trentmillar/terraform-provider-controltower
 
 go 1.21.3
 

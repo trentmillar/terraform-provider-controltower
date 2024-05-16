@@ -2,9 +2,9 @@ package main
 
 import (
 	"flag"
-	"github.com/go-pax/terraform-provider-controltower/internal/provider"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
+	"github.com/trentmillar/terraform-provider-controltower/internal/provider"
 )
 
 //go:generate terraform fmt -recursive ./examples/

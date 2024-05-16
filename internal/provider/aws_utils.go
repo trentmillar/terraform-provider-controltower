@@ -6,8 +6,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/organizations"
 	"github.com/aws/aws-sdk-go/service/servicecatalog"
-	"github.com/go-pax/terraform-provider-controltower/internal/provider/ops"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
+	"github.com/trentmillar/terraform-provider-controltower/internal/provider/ops"
 	"time"
 )
 

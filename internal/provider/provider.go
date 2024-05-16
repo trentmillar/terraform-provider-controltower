@@ -148,7 +148,7 @@ func configure(version string, p *schema.Provider) func(context.Context, *schema
 				{Name: "APN", Version: "1.0"},
 				{Name: "HashiCorp", Version: "1.0"},
 				{Name: "Terraform", Version: p.TerraformVersion, Extra: []string{"+https://www.terraform.io"}},
-				{Name: "terraform-provider-controltower", Version: version, Extra: []string{"+https://registry.terraform.io/providers/go-pax/controltower"}},
+				{Name: "terraform-provider-controltower", Version: version, Extra: []string{"+https://registry.terraform.io/providers/trentmillar/controltower"}},
 			},
 		}
 

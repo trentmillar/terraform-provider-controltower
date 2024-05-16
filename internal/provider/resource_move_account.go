@@ -3,9 +3,9 @@ package provider
 import (
 	"context"
 	"fmt"
-	"github.com/go-pax/terraform-provider-controltower/internal/provider/ops"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/trentmillar/terraform-provider-controltower/internal/provider/ops"
 	"log"
 	"sync"
 )

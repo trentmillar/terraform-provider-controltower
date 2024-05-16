@@ -1,6 +1,6 @@
 TEST?=$$(go list ./... | grep -v 'vendor')
 HOSTNAME=github.com
-ORG=go-pax
+ORG=trentmillar
 NAME=controltower
 BINARY=terraform-provider-${NAME}
 VERSION=0.1.0
